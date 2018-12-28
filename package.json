@@ -1,0 +1,32 @@
+{
+    "name": "nodejs-webcrawler",
+    "version": "1.1.0",
+    "description": "网页版Nodejs爬虫，可抓取图片和文本",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/satrong/node-webcrawler.git"
+    },
+    "keywords": [
+        "crawler",
+        "node.js",
+        "nodejs爬虫"
+    ],
+    "author": "Satrong Cao",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/satrong/node-webcrawler/issues"
+    },
+    "homepage": "http://www.xiaoboy.com",
+    "dependencies": {
+        "async": "^0.9.2",
+        "cheerio": "^0.22.0",
+        "ejs": "^2.2.4",
+        "iconv-lite": "^0.4.24",
+        "mkdirp": "^0.5.0",
+        "request": "^2.51.0",
+        "superagent": "^4.0.0",
+        "superagent-proxy": "^2.0.0",
+        "ws": "^6.1.2"
+    }
+}
